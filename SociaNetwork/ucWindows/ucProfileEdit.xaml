@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="SociaNetwork.ucWindows.ucProfileEdit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SociaNetwork.ucWindows"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             Height="550" Width="774"  Background="#FFEEEEEE">
+    <Grid Margin="1,0,0,0.2">
+        <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+            <Grid>
+                <Button Width="176" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="290,0,290,105.4" Content="Edit"   Height="35" Click="Button_Click"/>
+                <StackPanel VerticalAlignment="Center" Margin="200,148,200,324.4" Height="78">
+                    <ComboBox VerticalAlignment="Stretch" Margin="0,10,0.2,10" FontSize="22"  materialDesign:HintAssist.Hint="Choose edit field" x:Name="OptionComboBox" SelectionChanged="OptionComboBox_SelectionChanged" />
+                </StackPanel>
+                <TextBox Name="EditNewData" Margin="200,260,199.6,231.4" materialDesign:HintAssist.Hint="New data" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Champagne &amp; Limousines" FontSize="22" TextChanged="EditNewData_TextChanged" />
+            </Grid>
+        </materialDesign:TransitioningContent>
+
+    </Grid>
+</UserControl>

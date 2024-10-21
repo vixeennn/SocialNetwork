@@ -1,0 +1,27 @@
+﻿<Window x:Class="SociaNetwork.HelperWindows.ListOfPersonsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SociaNetwork.HelperWindows"
+        AllowsTransparency="True" 
+        Background="Transparent" 
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Login" Height="500" Width="350" 
+        ResizeMode="NoResize" 
+        MouseMove="Window_MouseMove"
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None" >
+    <Border CornerRadius="40" BorderBrush="#FF31577E" BorderThickness="8" Background="White">
+        <Grid>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Top"   Click="OFF" Margin="0,13,19.4,0">
+                <materialDesign:PackIcon Kind="Power" RenderTransformOrigin="0.5,0.5" Height="29" Width="27" >
+                       
+                </materialDesign:PackIcon>
+            </Button>
+            <ComboBox VerticalAlignment="Stretch" IsDropDownOpen="True" Margin="24,64,18.4,373" FontSize="18"  materialDesign:HintAssist.Hint="Peopel" Name="PeopelComboBox" SelectionChanged="PeopelComboBox_SelectionChanged" MaxDropDownHeight="300">
+                
+            </ComboBox>
+        </Grid>
+    </Border>
+</Window>

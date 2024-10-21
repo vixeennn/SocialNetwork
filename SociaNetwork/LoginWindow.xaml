@@ -1,0 +1,49 @@
+﻿<Window x:Class="SociaNetwork.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SociaNetwork"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Login" Height="500" Width="350" 
+        ResizeMode="NoResize" 
+        AllowsTransparency="True" 
+        Background="Transparent" 
+        MouseMove="Window_MouseMove"
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None" 
+        FontFamily="Segoe UI Emoji">
+
+    <Border CornerRadius="10" BorderBrush="#FF31577E" BorderThickness="6" Background="White">
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF31577E" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FF31577E" Offset="0.252"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+
+            <Rectangle Height="240" VerticalAlignment="Bottom" Margin="35,0,31.4,132" RadiusY="10" RadiusX="10" Fill="White">
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1" Color="#FFBBBBBB"/>
+                </Rectangle.Effect>
+            </Rectangle>
+            <Grid VerticalAlignment="Bottom" Margin="35,0,35.4,132" Height="240">
+                <Label Content="LOGIN" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Foreground="Gray" FontSize="18"/>
+                <StackPanel VerticalAlignment="Center" Margin="15">
+                    <TextBox Name="NickName" Margin="0,10,0,-5" materialDesign:HintAssist.Hint="Nickname" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Champagne &amp; Limousines" FontSize="22" TextChanged="NameLogin_TextChanged"/>
+                    <PasswordBox Name="PasswordLogin" Margin="0,10" materialDesign:HintAssist.Hint="Password" FontFamily="Champagne &amp; Limousines" FontSize="22" />
+                </StackPanel>
+            </Grid>
+            <Button Width="150" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="100,0,100.4,117" Content="LOGIN"  Click="LOGIN"/>
+            <Button Background="LightGray"  Width="264" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="46,0,40.4,14" Content="Register"  Click="Register" Height="44" FontSize="18" />
+            <Button HorizontalAlignment="Right" VerticalAlignment="Top"   Click="OFF">
+                <materialDesign:PackIcon Kind="Power" RenderTransformOrigin="0.5,0.5" Height="29" Width="27" >
+
+                </materialDesign:PackIcon>
+            </Button>
+        </Grid>
+    </Border>
+</Window>
