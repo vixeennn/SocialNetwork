@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "67156d088e6222c2f1f025b7"
+  },
+  "Email": "user1@example.com",
+  "Password": "password1",
+  "FirstName": "John",
+  "Surname": "Doe",
+  "LastName": "Doe",
+  "Interests": [
+    "sports",
+    "music"
+  ],
+  "Following": [
+    "67156e178e6222c2f1f025c1",
+    "67156fb78e6222c2f1f025cb"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156d6e8e6222c2f1f025b9"
+  },
+  "Email": "user2@example.com",
+  "Password": "password2",
+  "FirstName": "Jane",
+  "Surname": "Smith",
+  "LastName": "Smith",
+  "Interests": [
+    "reading",
+    "technology"
+  ],
+  "Following": [
+    "67156d088e6222c2f1f025b7",
+    "67156e178e6222c2f1f025c1"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156d828e6222c2f1f025bb"
+  },
+  "Email": "user3@example.com",
+  "Password": "password3",
+  "FirstName": "Sam",
+  "Surname": "Brown",
+  "LastName": "Brown",
+  "Interests": [
+    "movies",
+    "travel"
+  ],
+  "Following": [
+    "67156d088e6222c2f1f025b7"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156dad8e6222c2f1f025bd"
+  },
+  "Email": "user4@example.com",
+  "Password": "password4",
+  "FirstName": "Alice",
+  "Surname": "Johnson",
+  "LastName": "Johnson",
+  "Interests": [
+    "cooking",
+    "art"
+  ],
+  "Following": [
+    "67156f218e6222c2f1f025c3"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156de18e6222c2f1f025bf"
+  },
+  "Email": "user5@example.com",
+  "Password": "password5",
+  "FirstName": "Robert",
+  "Surname": "Lee",
+  "LastName": "Lee",
+  "Interests": [
+    "sports",
+    "photography"
+  ],
+  "Following": [
+    "67156e178e6222c2f1f025c1"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156e178e6222c2f1f025c1"
+  },
+  "Email": "user6@example.com",
+  "Password": "hashed_password6",
+  "FirstName": "Michael",
+  "Surname": "Garcia",
+  "LastName": "Garcia",
+  "Interests": [
+    "gaming",
+    "fitness"
+  ],
+  "Following": [
+    "67156d088e6222c2f1f025b7",
+    "67156fb78e6222c2f1f025cb",
+    "67156f958e6222c2f1f025c9"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156f218e6222c2f1f025c3"
+  },
+  "Email": "user7@example.com",
+  "Password": "password7",
+  "FirstName": "Emily",
+  "Surname": "Williams",
+  "LastName": "Williams",
+  "Interests": [
+    "music",
+    "yoga"
+  ],
+  "Following": [
+    "67156e178e6222c2f1f025c1"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156f4a8e6222c2f1f025c5"
+  },
+  "Email": "user8@example.com",
+  "Password": "password8",
+  "FirstName": "Daniel",
+  "Surname": "Martinez",
+  "LastName": "Martinez",
+  "Interests": [
+    "photography",
+    "travel"
+  ],
+  "Following": [
+    "67156f958e6222c2f1f025c9"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156f648e6222c2f1f025c7"
+  },
+  "Email": "user9@example.com",
+  "Password": "password9",
+  "FirstName": "Sarah",
+  "Surname": "Rodriguez",
+  "LastName": "Rodriguez",
+  "Interests": [
+    "fashion",
+    "fitness"
+  ],
+  "Following": [
+    "67156fb78e6222c2f1f025cb"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156f958e6222c2f1f025c9"
+  },
+  "Email": "user10@example.com",
+  "Password": "password10",
+  "FirstName": "Chris",
+  "Surname": "Davis",
+  "LastName": "Davis",
+  "Interests": [
+    "sports",
+    "technology"
+  ],
+  "Following": [
+    "67156f218e6222c2f1f025c3"
+  ]
+},
+{
+  "_id": {
+    "$oid": "67156fb78e6222c2f1f025cb"
+  },
+  "Email": "user11@example.com",
+  "Password": "password11",
+  "FirstName": "Sophia",
+  "Surname": "Lopez",
+  "LastName": "Lopez",
+  "Interests": [
+    "reading",
+    "art"
+  ],
+  "Following": [
+    "67156f958e6222c2f1f025c9",
+    "67156e178e6222c2f1f025c1"
+  ]
+}]
